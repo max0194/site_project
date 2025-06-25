@@ -1,33 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <link href="css/style1.css" rel="stylesheet" >
+    <meta charset="UTF-8">
+    <title>Список туров</title>
+    <link href="css/style1.css" rel="stylesheet">
 </head>
-<body>
-    <!--Фон-->
-    <div class="bkg_img" style="background: url('images/bkg_img.png')">
-        <!--Навигационная панель-->
-        <nav class="nav_bar">
-            <a class="logo_block" style="background-image: url('images/globe.png')"></a>
-            <!--Кнопки-->
-            <a href="index.html" class="nav-button" style="font-weight: 400">Главная</a>
-            <a href="tour_list.html" class="nav-button" style="font-weight: 900">Список туров</a>
-            <a href="promo.html" class="nav-button" style="font-weight: 400">Акции</a>
-            <a href="about.html" class="nav-button" style="font-weight: 400">О нас</a>
-            <a href="support.html" class="nav-button" style="font-weight: 400">Поддержка</a>
-            <a href="reviews.html" class="nav-button" style="font-weight: 400">Отзывы</a>
-            <a href="login.html" class="nav-button" style="font-weight: 400">Войти</a>
-        </nav>
-        <!--Конец навигационной панели-->
-        <!--Основной раздел-->
-        <nav class="main_block">
-            <p class="main_text">Добро пожаловать в мир незабываемых путешествий!</p>
-            <div class="main_img" style="background-image: url('images/main_img.png')"></div>
-            <p class="main_text">Начните свое путешествие прямо сейчас: выберите направление, которое вдохновляет вас больше всего, и отправляйтесь навстречу новым горизонтам</p>
-        </nav>
-        <!--Конец основного раздела-->
-    </div>
     
+<body style="background: url('images/bkg_img.jpg')">
+    <!--Фон-->
+        <nav class="nav_bar">
+            <a href="index.html" class="logo_block" style="background-image: url('images/globe.png')"></a>
+            <a href="tour_list.html" class="nav-button" style="font-weight: 900">Список туров</a>
+            <a href="promo.html" class="nav-button">Акции</a>
+            <a href="about.html" class="nav-button">О нас</a>
+            <a href="support.html" class="nav-button">Поддержка</a>
+            <a href="reviews.html" class="nav-button">Отзывы</a>
+            <a href="login.html" class="nav-button">Войти</a>
+        </nav>
 
+        <div class="main_block">
+            <nav class="filters">
+                <input type="text" placeholder="Поиск по параметрам...">
+                <button>Поиск</button>
+                <button>Зарубежные</button>
+                <button>По России</button>
+            </nav>
+            <table>
+                <tr>
+                    <td><img src="images/flag_russian.png" class="flag"></td>
+                    <td>Дорогами древних городов</td>
+                    <td>7 дней</td>
+                    <td>45 000 ₽</td>
+                    <td><button class="tour-button">Подробнее</button></td>
+                </tr>
+                <tr>
+                    <td><img src="images/flag_russian.png" class="flag"></td>
+                    <td>Тайны великого озера</td>
+                    <td>10 дней</td>
+                    <td>60 000 ₽</td>
+                    <td><button class="tour-button">Подробнее</button></td>
+                </tr>
+                <tr>
+                    <td><img src="images/flag_russian.png" class="flag"></td>
+                    <td>Огненное дыхание земли</td>
+                    <td>12 дней</td>
+                    <td>80 000 ₽</td>
+                    <td><button class="tour-button">Подробнее</button></td>
+                </tr>
+                <tr>
+                    <td><img src="images/flag_italy.png" class="flag"></td>
+                    <td>Шаги истории</td>
+                    <td>7 дней</td>
+                    <td>113 112 ₽</td>
+                    <td><button class="tour-button">Подробнее</button></td>
+                </tr>
+                <tr>
+                    <td><img src="images/flag_tailand.png" class="flag"></td>
+                    <td>Райский уголок Азии</td>
+                    <td>10 дней</td>
+                    <td>86 620 ₽</td>
+                    <td><button class="tour-button">Подробнее</button></td>
+                </tr>
+                <tr>
+                    <td><img src="images/flag_turkey.png" class="flag"></td>
+                    <td>Жемчужины Турции</td>
+                    <td>8 дней</td>
+                    <td>125 000 ₽</td>
+                    <td><button class="tour-button">Подробнее</button></td>
+                </tr>
+                <tr>
+                    <td><img src="images/flag_tailand.png" class="flag"></td>
+                    <td>Тайская сказка</td>
+                    <td>10 дней</td>
+                    <td>180 000 ₽</td>
+                    <td><button class="tour-button">Подробнее</button></td>
+                </tr>
+            </table>
+        </div>
 </body>
 </html>

@@ -2,29 +2,32 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Главная</title>
+    <title>О нас</title>
     <link href="css/style1.css" rel="stylesheet">
 </head>
 <body style="background: url('images/bkg_img.jpg')">
-    <!--Фон-->
         <!--Навигационная панель-->
         <nav class="nav_bar">
-            <!--Кнопки-->
             <a href="index.html" class="logo_block" style="background-image: url('images/globe.png')"></a>
+            <!--Кнопки-->
             <a href="tour_list.html" class="nav-button" style="font-weight: 400">Список туров</a>
             <a href="promo.html" class="nav-button" style="font-weight: 400">Акции</a>
             <a href="about.html" class="nav-button" style="font-weight: 400">О нас</a>
             <a href="support.html" class="nav-button" style="font-weight: 400">Поддержка</a>
             <a href="reviews.html" class="nav-button" style="font-weight: 400">Отзывы</a>
-            <a href="login.html" class="nav-button" style="font-weight: 400">Войти</a>
+            <a href="login.html" class="nav-button" style="font-weight: 900">Войти</a>
         </nav>
         <!--Конец навигационной панели-->
         <!--Основной раздел-->
-        <nav class="main_block">
-            <p class="main_text">Добро пожаловать в мир незабываемых путешествий!</p>
-            <div class="main_img" style="background-image: url('images/main_img.png')"></div>
-            <p class="main_text">Начните свое путешествие прямо сейчас: выберите направление, которое вдохновляет вас больше всего, и отправляйтесь навстречу новым горизонтам</p>
-        </nav>
+        <div class="login_block">
+            <login>
+                <a style="font-size: 25px; font-family: 'Ubuntu Mono', monospace; margin: 100px">Вход</a>
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Пароль">
+                <button href="index.html">Войти</button>
+                <a href="signin.html" style="font-family: 'Ubuntu Mono', monospace; color:blue; margin: 100px;">Нет аккаунта? Зарегистрироваться</a>
+            </login>
+        </div>
         <!--Конец основного раздела-->
 </body>
 </html>
