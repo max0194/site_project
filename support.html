@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>О нас</title>
+    <link href="css/style1.css" rel="stylesheet">
+</head>
+<body style="background: url('images/bkg_img.jpg')">
+        <!--Навигационная панель-->
+        <nav class="nav_bar">
+            <!--Кнопки-->
+             <a href="index.html" class="logo_block" style="background-image: url('images/globe.png')"></a>
+            <a href="tour_list.html" class="nav-button">Список туров</a>
+            <a href="promo.html" class="nav-button">Акции</a>
+            <a href="about.html" class="nav-button">О нас</a>
+            <a href="support.html" class="nav-button" style="font-weight: 900">Поддержка</a>
+            <a href="reviews.html" class="nav-button">Отзывы</a>
+            <a href="login.html" class="nav-button">Войти</a>
+        </nav>
+        <!--Конец навигационной панели-->
+        <!--Основной раздел-->
+        <div class="main_block">
+            <table style="height: 400px">
+                <tr>
+                    <td><img src="images/support.png" class="flag"></td>
+                    <td>Здраствуйте, опишите вашу проблему.</td>
+                </tr>
+                <tr>
+                    <td><img src="images/user.png" class="flag"></td>
+                    <td>Добрый день, дело в том, что я забронировал у вас тур, а в личном кабинете не появляется.</td>
+                </tr>
+                <tr>
+                    <td><img src="images/support.png" class="flag"></td>
+                    <td>Нужно уточнить, одну минутку</td>
+                </tr>
+                <tr>
+                    <td><img src="images/user.png" class="flag"></td>
+                    <td>Хорошо.</td>
+                </tr>
+                <tr>
+                    <td><img src="images/support.png" class="flag"></td>
+                    <td>У нас сейчас высокая нагрузка на сервера, нужно подождать. Вы получили уведомление о бронировании по электронной почте?</td>
+                </tr>
+                <tr>
+                    <td><img src="images/user.png" class="flag"></td>
+                    <td>Да, получил.</td>
+                </tr>
+                <tr>
+                    <td><img src="images/support.png" class="flag"></td>
+                    <td>Если через час в личном кабинете не появится забронированный вами тур - пишите нам.</td>
+                </tr>
+                <tr>
+                    <td><img src="images/user.png" class="flag"></td>
+                    <td>Спасибо, если что - напишу.</td>
+                </tr>
+            </table>
+            <support>
+                <textarea placeholder="Опишите вашу проблему."></textarea>
+                <button>Отправить</button>
+            </support>
+        </div>
+        <!--Конец основного раздела-->
+</body>
+    <style>
+        td:first-child{
+            width: auto;
+            text-align: center;
+        }
+        
+        td:nth-child(2){
+            width: auto;
+            text-align: left;
+            height: 5px;
+            padding: 10px;
+            font-size: 18px;
+        }
+    </style>
+</html>
