@@ -5,9 +5,8 @@ body {
   position: relative;
 }
 
-/* Фон через псевдоэлемент (лучше для управления z-index) */
 body::before {
-  position: fixed; /* или absolute, если не нужно фиксировать */
+  position: fixed; 
   top: 0;
   left: 0;
   width: 100vw;
@@ -114,11 +113,8 @@ body::before {
     
 }
 
-/*Страницы список туров*/
+/*Страница список туров*/
 
-.scroll{
-    overflow-y:scroll;
-}
 
 .filters {
     padding: 10px;
